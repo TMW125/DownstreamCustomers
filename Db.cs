@@ -18,7 +18,7 @@ public record Network
 public record Request
 {
     public required Network Network { get; set; }
-    public int SelecectedNode {  get; set; }
+    public int SelectedNode {  get; set; }
 }
 public record Response
 {
@@ -28,7 +28,7 @@ public class DownstreamCustomersDB()
 {
     public static Response GetDownCust(Request request)
     {
-        int selectedNode = request.SelecectedNode;
+        int selectedNode = request.SelectedNode;
         Network network = request.Network;
         List<int> nodes = [];
         int i = 0;
