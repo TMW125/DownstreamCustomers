@@ -1,0 +1,61 @@
+{
+  "network": {
+    "branches": [
+      {
+        "startNode": 10,
+        "endNode": 20
+      },
+      {
+        "startNode": 20,
+        "endNode": 30
+      },
+      {
+        "startNode": 30,
+        "endNode": 50
+      },
+      {
+        "startNode": 50,
+        "endNode": 60
+      },
+      {
+        "startNode": 50,
+        "endNode": 90
+      },
+      {
+        "startNode": 60,
+        "endNode": 40
+      },
+      {
+        "startNode": 70,
+        "endNode": 80
+      }
+    ],
+    "customers": [
+      {
+        "node": 30,
+        "numberOfCustomers": 8
+      },
+      {
+        "node": 40,
+        "numberOfCustomers": 3
+      },
+      {
+        "node": 60,
+        "numberOfCustomers": 2
+      },
+      {
+        "node": 70,
+        "numberOfCustomers": 1
+      },
+      {
+        "node": 80,
+        "numberOfCustomers": 3
+      },
+      {
+        "node": 90,
+        "numberOfCustomers": 5
+      }
+    ]
+  },
+  "selectedNode": 50
+}
